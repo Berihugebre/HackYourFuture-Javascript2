@@ -5,9 +5,7 @@ function f1(val) {
   val = val + 1;
   return val;
 }
-
 f1(x);
-
 console.log(x);
 
 const y = { x: 9 };
@@ -17,7 +15,8 @@ function f2(val) {
 }
 
 f2(y);
-
 console.log(y);
 
 // Add your explanation as a comment here
+/* JavaScript is call by value. However,
+in case of Objects the value being passed is the reference. */
