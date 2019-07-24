@@ -1,5 +1,4 @@
 
-
 class Form {
   constructor() {
     this.formElement = null;
@@ -49,4 +48,3 @@ form1.createOptions()
 const form2 = new Form('form');
 form2.createInput();
 form2.createButton();
-console.log()
