@@ -52,7 +52,7 @@ class Form {
 }
 const form1 = new Form('form1');
 form1.createHeader('welcome to js-2 week3 classwork page');
-form1.createParagraph('p1', 'type text and click Submit to see the length your text ');
+form1.createParagraph('p1', 'type text and click Submit to see the length of your text ');
 form1.createInput('input_one', 'text');
 form1.createButton('button_one', 'Submit');
 form1.createBreak();
