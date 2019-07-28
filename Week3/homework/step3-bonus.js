@@ -3,7 +3,7 @@
 const values = ['a', 'b', 'c', 'd', 'a', 'e', 'f', 'c'];
 function makeUnique(arr) {
   return [...new Set(arr)];
-  //The Set object lets you store unique values of any type,
+  // The Set object lets you store unique values of any type,
 }
 const uniqueValues = makeUnique(values);
 console.log(uniqueValues);

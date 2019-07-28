@@ -25,6 +25,9 @@ function repeatStringNumTimesWithDoWhile(str, num) {
   // eslint-disable-next-line prefer-const
   let result = '';
   do {
+    if (num <= 0) {
+      return result;
+    }
     result += str;
     num--;
   } while (num > 0);

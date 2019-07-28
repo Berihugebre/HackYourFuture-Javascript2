@@ -18,5 +18,5 @@ f2(y);
 console.log(y);
 
 // Add your explanation as a comment here
-/* JavaScript is call by value. However,
-in case of Objects the value being passed is the reference. */
+// JavaScript is call by value. However,
+// in case of Objects the value being passed is the reference.
